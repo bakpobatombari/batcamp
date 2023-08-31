@@ -1,0 +1,49 @@
+#webnav{
+    padding-left: 20px;
+    height:70px;
+    color:white;
+    background-color: navy;
+}
+a{
+    color: rgb(255,255,255);
+    text-decoration: none;
+}
+a:hover{
+    color:white;
+}
+.signup{
+    margin-top: -10px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #04AA6D;
+    color:white;
+}
+.signup:hover{
+    text-decoration:underline white;
+}
+#mobilenav{
+    height:70px;
+    padding-left: 20px;
+    color:white;
+    background-color: navy;
+}
+.homepage{
+    height:400px;
+}
+@media only screen 
+and (min-width:320px)
+and (max-width:480px){
+    #webnav{
+        display:none;
+    }
+    #mobilenav{
+      display:block;
+    }
+}
+@media only screen
+and (min-width:1030px)
+and (max-width:1366px){
+    #mobilenav{
+        display:none;
+    }
+}
