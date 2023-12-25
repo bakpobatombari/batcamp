@@ -1,0 +1,29 @@
+<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+<link rel="stylesheet" href="assets/js/bootstrap.min.js">
+<link rel="stylesheet" href="assets/css/navbar.css">
+<script src="assets/js/index.js"></script>
+<main>
+    <nav class="navbar container-fluid text-light" id="webnav">
+        <div class="col-md-3">
+            <div class="row">
+                <div class="col-md-3">
+        <img src="assets/images/batcamp.svg" alt="logo" class="logo col-md-12">
+    </div>
+    <div class="col-md-9">
+        <h4>Batcamp Global <br> Services</h4>
+    </div>
+    </div>
+    </div>
+    <h1 id="gotten"></h1>
+    <div class="form" id="form">
+        <h6 style="text-align: center;">LOGIN</h6>
+        <input type="text" name="Username" placeholder="Username" id="Username">
+        <input type="password" name="password" placeholder="Password" id="password">
+        <button onclick="login()">Submit</button>
+        <p style="color: navy;">Sign up</p>
+    </div>
+    <div class="error" id="error">
+        <p style="color: red;">INVALID LOGIN CREDITENTIALS <button onclick="tryAgain()">TRY AGAIN</button></p>
+    </div>
+    </nav>
+</main>

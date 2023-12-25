@@ -1,0 +1,32 @@
+#webnav{
+    height: 70px;
+    background-color: navy;
+    font-family: serif;
+}
+.logo{
+    height:60px;
+    border-radius: 50%;
+    background-color: rgb(1, 10, 53);
+}
+.form{
+    height:70px;
+}
+.form input{
+    height:30px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+}
+.form button{
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    background-color: rgb(14, 199, 245);
+    color: white;
+}
+.error{
+    display: none;
+}
+#gotten{
+    text-transform: capitalize;
+}
