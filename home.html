@@ -3,12 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>homepage</title>
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <title>LOGIN</title>
+    <link rel="shortcut icon" href="assets/images/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/login.css">
     <link rel="stylesheet" href="assets/css/homepage.css">
-    <link rel="stylesheet" href="assets/css/navbar.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+<link rel="stylesheet" href="assets/css/navbar.css">
 </head>
 <body>
+    <div class="bod">
+    <script src="assets/js/index.js"></script>
+    <div class="container" id="container-form">
+        <div class="form col-md-8" id="form">
+            <h3 style="text-align: center;">LOGIN</h3>
+            <label for="Username">Username</label>
+            <input type="text" name="Username" class="col-md-12" placeholder="Username" id="Username">
+            <label for="password">Password</label>
+            <input type="password" placeholder="Password" class="col-md-12" name="password" id="password">
+            <p><button class="sign" onclick="sign()">Sign up</button></p>
+            <h5 style="color: red;" id="err"></h5>
+            <center><button class="login col-md-3" onclick="login()">Login</button></center>
+        </div>
+        <div class="form-register" id="form-register">
+            <h3 style="text-align: center;">Sign Up</h3>
+            <label for="Firstname">Firstname</label>
+            <input type="text" name="Firstname" class="col-md-12" placeholder="Firstname" id="firstname">
+            <label for="Lastname">Lastname</label>
+            <input type="text" placeholder="Lastname" class="col-md-12" name="Lastname" id="lastname">
+            <label for="Email">Email</label>
+            <input type="email" placeholder="Email" id="email" class="col-md-12">
+            <label for="Password">Password</label>
+            <input type="password" name="password" id="pass" placeholder="Password" minlength="5" class="col-md-12">
+            <label for="Re-password">Re-enter Password</label>
+            <input type="password" style="margin-bottom: 20px;" name="Re-password" id="Re-password" placeholder="Re-enter Password" class="col-md-12">
+            <p><button class="sign" onclick="log()">Login</button></p>
+            <h5 id="eror" style="color: red;"></h5>
+            <center><button class="login col-md-3" onclick="register()">Sign up</button></center>
+        </div>
+    </div>
+</div>
     <div class="body" id="body">
 
         <nav class="navbar container-fluid position-fixed" id="webnav">

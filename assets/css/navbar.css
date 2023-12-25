@@ -1,32 +1,14 @@
 #webnav{
-    height: 70px;
-    background-color: navy;
+    height:70px;
+    background:linear-gradient(80deg,navy,rgb(67, 167, 255));
     font-family: serif;
 }
 .logo{
     height:60px;
+}
+.circle{
     border-radius: 50%;
-    background-color: rgb(1, 10, 53);
-}
-.form{
-    height:70px;
-}
-.form input{
-    height:30px;
-    border-radius: 4px;
-    outline: none;
-    border: none;
-}
-.form button{
-    border-radius: 5px;
-    outline: none;
-    border: none;
-    background-color: rgb(14, 199, 245);
-    color: white;
-}
-.error{
-    display: none;
-}
-#gotten{
-    text-transform: capitalize;
+    height:60px;
+    background-color: rgba(207, 207, 207, 0.329);
+    border: 2px rgb(224, 224, 224) solid;
 }

@@ -1,0 +1,40 @@
+
+.form{
+    font-family: serif !important;
+    margin: 10% auto 15% !important;
+    color: white;
+}
+
+.form-register{
+    font-family: serif !important;
+    margin: auto 15% !important;
+    color: white;
+    display: none;
+}
+body{
+    background: linear-gradient(88deg,navy,white);
+    font-family: serif !important;
+}
+input{
+    height:50px;
+    border: none;
+    border-radius: 5px;
+    display: block;
+}
+.sign{
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 18px;
+}
+.login{
+    border: none;
+    height: 50px;
+    border-radius: 10px;
+    background-color: navy;
+    color: white;
+}
+.body{
+    display: none;
+    background-color: white;
+}
